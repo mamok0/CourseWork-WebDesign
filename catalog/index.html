@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PRESTO | Каталог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/catalog/catalog.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" class="logo">PRESTO</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a class="active" href="/catalog">Каталог</a></li>
+            <li><a href="/news">Новости</a></li>
+            <li><a href="/contacts">Контакты</a></li>
+            <li><a href="/faq">F.A.Q</a></li>
+            <li><a href="/customers">Покупателю</a></li>
+            <li><a href="/shops">Магазины</a></li>
+            <li><a href="/">Корзина <img class="shop-cart-icon" src="/img/Header/shopping-cart.svg" /></a></li>
+        </ul>
+    </header>
+    <main class="catalog_main">
+        <section class="catalog_filter">
+            <h2>ПОДБОР</h2>
+            <div class="filter__wrapper">
+                <div class="filter">
+                    <h3>Цена</h3>
+                    От: <input type="text" class="price" value="0">
+                    До: <input type="text" class="price" value="1000">
+                    <h3>Пол</h3>
+                    <div class="filter__parameter">
+                        <input type="checkbox">
+                        <p>Мужской</p>
+                    </div>
+                    <div class="filter__parameter">
+                        <input type="checkbox" checked>
+                        <p>Женский</p>
+                    </div>
+                    <h3>Тип обуви</h3>
+                    <select name="types">
+                        <option selected>Ботинки</option>
+                        <option>Туфли</option>
+                        <option>Кроссовки</option>
+                        <option>Кеды</option>
+                        <option>Босоножки</option>
+                    </select>
+                    <h3>Размер</h3>
+                    <select name="size">
+                        <option></option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                        <option>45</option>
+                    </select>
+                    <h3>Бренд</h3>
+                    <select name="brand">
+                        <option>Carpice</option>
+                        <option>Afina</option>
+                        <option>Bellassa</option>
+                        <option>Dario</option>
+                        <option>Fabretti</option>
+                        <option>Tantino</option>
+                        <option>Noryalli</option>
+                        <option>Loris</option>
+                        <option>Francesco Donni</option>
+                        <option>Dino Ricci</option>
+                    </select>
+                </div>
+                <div class="filter_button__wrapper">
+                    <a href=""><button class="filter_button">ПОДОБРАТЬ</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="catalog_results">
+            <h2>РЕЗУЛЬТАТ ПОИСКА</h2>
+            <div class="goods__wrapper">
+                <div class="goods">
+                    <p class="goods_title">Carpice, 41 рармер</p>
+                    <img class="goods_img" src="/img/Main/shoes/9-26223-23 019 (1).JPG.250x250_q90.jpg" />
+                    <a href=""><button class="goods_cart">В КОРЗИНУ</button></a>
+                    <a href=""><button class="goods_buy">КУПИТЬ</button></a>
+                    <a class="goods_desc" href="/product">ПОДРОБНЕЕ</a>
+                </div>
+                <div class="goods">
+                    <p class="goods_title">Carpice, 40 рармер</p>
+                    <img class="goods_img" src="/img/Main/shoes/9-26340-23 019 (1).JPG.250x250_q90.jpg" />
+                    <a href=""><button class="goods_cart">В КОРЗИНУ</button></a>
+                    <a href=""><button class="goods_buy">КУПИТЬ</button></a>
+                    <a class="goods_desc" href="/product">ПОДРОБНЕЕ</a>
+                </div>
+                <div class="goods">
+                    <p class="goods_title">Carpice, 41 рармер</p>
+                    <img class="goods_img" src="/img/Main/shoes/9-26374-33 040 (1).JPG.250x250_q90.jpg" />
+                    <a href=""><button class="goods_cart">В КОРЗИНУ</button></a>
+                    <a href=""><button class="goods_buy">КУПИТЬ</button></a>
+                    <a class="goods_desc" href="/product">ПОДРОБНЕЕ</a>
+                </div>
+                <div class="goods">
+                    <p class="goods_title">Carpice, 39 рармер</p>
+                    <img class="goods_img" src="/img/Main/shoes/9-26431-23 022 (1).JPG.250x250_q90.jpg" />
+                    <a href=""><button class="goods_cart">В КОРЗИНУ</button></a>
+                    <a href=""><button class="goods_buy">КУПИТЬ</button></a>
+                    <a class="goods_desc" href="/product">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__head">
+            <img class="footer__icon" src="/img/Fotter/facebook.png" />
+            <img class="footer__icon" src="/img/Fotter/twitter.png" />
+            <img class="footer__icon" src="/img/Fotter/vk.png" />
+        </div>
+        <div class="footer__about">
+            <p>Республика Беларусь, 220035, г.Минск, ул.Игнатенко, 2-314. УНН 191711065<br />
+                @PRESTO, 2019</p>
+        </div>
+    </footer>
+</body>

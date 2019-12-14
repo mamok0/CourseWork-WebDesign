@@ -1,0 +1,32 @@
+.shops_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop_address{
+    font-weight: 700;
+}
+
+.shop {
+    width: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop_photo {
+    width: 200px;
+}
+
+@media (max-width: 850px) {
+    .shops_wrapper {
+        flex-wrap: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop {
+        width: 90%;
+    }
+}
