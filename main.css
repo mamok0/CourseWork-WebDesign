@@ -205,6 +205,11 @@ main {
     margin: 0 10px;
 }
 
+.footer__icon:hover{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
 .footer__about {
     color: white;
 }
